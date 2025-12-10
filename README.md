@@ -43,15 +43,15 @@ Since DGL must match the installed PyTorch version, please install PyTorch **fir
 
 ##  Dataset Sources and Anomaly Injection
 
-The additional dataset used in my extended experiments (BlogCatalog) was obtained from a public GitHub repository referenced in a related work.
+The additional dataset used in my extended experiments (BlogCatalog) was obtained from a public GitHub repository referenced in a related work.  
 Since the original dataset does not contain ground-truth anomaly labels, I follow the anomaly injection strategy described in:
 
 Ding et al., 2019 — “Deep Anomaly Detection on Attributed Networks” (SDM 2019)
 
 This procedure injects approximately 300 synthetic anomalies into the graph, consisting of:
 
-Attributive anomalies: replacing node features with those from distant nodes
-Structural anomalies: rewiring selected nodes into fully connected subgraphs
+&nbsp;&nbsp;&nbsp;&nbsp;•Attributive anomalies: replacing node features with those from distant nodes
+&nbsp;&nbsp;&nbsp;&nbsp;•Structural anomalies: rewiring selected nodes into fully connected subgraphs
 
 
 ##  Running Experiments on New Datasets
@@ -61,5 +61,7 @@ To reproduce the result of new dataset(Blogcatalog) , run
 ```
 python run.py –dataset blogcatalog --lr 0.0005 --alpha 0.1 --gamma 0.8 --num_epoch 1500
 ```
+
+
 
 
