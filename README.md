@@ -59,7 +59,7 @@ This procedure injects approximately 300 synthetic anomalies into the graph, con
 To reproduce the result of new dataset(Blogcatalog) , run 
 
 ```
-python run.py –dataset blogcatalog --lr 0.0005 --alpha 0.1 --gamma 0.8 --num_epoch 1500
+python run.py –dataset blogcatalog --lr 0.0005 --alpha 0.1 --gamma 0.9 --num_epoch 1500
 ```
 
 
