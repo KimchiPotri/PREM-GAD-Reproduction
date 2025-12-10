@@ -63,5 +63,18 @@ python run.py –dataset blogcatalog --lr 0.0005 --alpha 0.1 --gamma 0.8 --num_e
 ```
 
 
+##  Citation
 
+This project is based on the official PREM-GAD implementation.  
+If you use PREM-GAD in your research, please cite the original paper:
+
+```bibtex
+@inproceedings{pan2023prem,
+  title={PREM: A Simple Yet Effective Approach for Node-Level Graph Anomaly Detection},
+  author={Pan, Junjun and Liu, Yixin and Zheng, Yizhen and Pan, Shirui},
+  booktitle={2023 IEEE International Conference on Data Mining (ICDM)},
+  pages={1253--1258},
+  year={2023},
+  organization={IEEE}
+}
 
